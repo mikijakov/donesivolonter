@@ -1,0 +1,63 @@
+html, body {
+    overflow: hidden!important;
+}
+
+.maps-cards-wrapper {
+    position: relative;
+    overflow: hidden;
+    /* clear: both; */
+	padding: 0px;
+	margin: 0px;
+}
+
+.hidden {
+    display: none;
+}
+
+.cards-stack {
+    height: 100%;
+    width: 30%;
+    float: left;
+    display: block;
+    margin-left: 0;
+    overflow: auto;
+}
+
+.map-place {
+    height: 100%;
+    display: block;
+    width: 70%;
+    right: 0px;
+    position: fixed;
+}
+
+.group-app:before,
+.group-app:after { content:""; display:table; }
+.group-app:after { clear:both;}
+.group-app { zoom:1; /* For IE 6/7 */ }
+
+.copyright-wrapper {
+    position: fixed;
+    bottom: 0;
+    width: inherit;
+
+}
+
+.copyright-nt {
+    text-align: center;
+}
+
+/*  Responsive for mobile devices */
+
+@media only screen and (max-width: 767px) {
+    .map-place {
+        display: none;
+    }
+    .cards-stack {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}

@@ -1,0 +1,4 @@
+Prenosenje lokacija na mapu 
+Prikazivanje na mapi na dugme
+Prihvatanje dostave
+Brisanje iz url ?greska= itd

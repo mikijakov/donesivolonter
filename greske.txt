@@ -1,0 +1,9 @@
+//Sva polja su obavezna
+Broj telefona nije u ispravnom formatu
+//Email adresa nije u ispravnom formatu
+Već postoji korisnik sa istim brojem telefona/email adresom
+//Lozinka je kraća od 8 karaktera
+//Lozinke se ne poklapaju
+//Molimo prihvatite uslove korišćenja
+Nepostojeći korisnik, registrujte se!
+Greška u uspostavljanju veze sa bazom
